@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babulle.AdventOfCode2025.Day1", "Babulle.AdventOfCode2025.Day1\Babulle.AdventOfCode2025.Day1.csproj", "{39FF0B38-9248-4865-A397-D78807156765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babulle.AdventOfCode2025.Day1.Tests", "Babulle.AdventOfCode2025.Day1.Tests\Babulle.AdventOfCode2025.Day1.Tests.csproj", "{CAD1619A-AEAD-4752-B315-CA25233DDC11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39FF0B38-9248-4865-A397-D78807156765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FF0B38-9248-4865-A397-D78807156765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FF0B38-9248-4865-A397-D78807156765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FF0B38-9248-4865-A397-D78807156765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD1619A-AEAD-4752-B315-CA25233DDC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD1619A-AEAD-4752-B315-CA25233DDC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD1619A-AEAD-4752-B315-CA25233DDC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD1619A-AEAD-4752-B315-CA25233DDC11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
