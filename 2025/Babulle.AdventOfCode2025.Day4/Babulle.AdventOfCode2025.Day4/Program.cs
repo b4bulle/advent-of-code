@@ -36,14 +36,18 @@ using (var writer = new StreamWriter(fileStream))
             
             for (var j = 0; j < lineSize; ++j)
             {
-                //Console.Write(table[i, j] + "");
                 if (lines[i][j] == '@')
                 {
                     if (table[i, j] < 4)
                     {
                         ++iterationResult;
-                        stringBuilder[j] = '.';
+                        stringBuilder[j] = 'x';
                     }
+                }
+                
+                if (lines[i][j] == 'x')
+                {
+                    stringBuilder[j] = '.';
                 }
             }
             writer.WriteLine(lines[i]);
@@ -51,6 +55,7 @@ using (var writer = new StreamWriter(fileStream))
         }
         
         result += iterationResult;
+        writer.WriteLine(iterationResult);
         writer.WriteLine();
     }
 }
